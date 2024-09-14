@@ -6,8 +6,8 @@ from sklearn.preprocessing import LabelEncoder
 
 # load two datasets from csv files in dataset dictionary
 dataset = load_dataset('csv', data_files= {
-    "train": "setfit-dataset-trainOLD.csv",
-    "test": "setfit-dataset-testOLD.csv"
+    "train": "dataset-train.csv",
+    "test": "dataset-test.csv"
 })
 
 # Encode the sentiment labels (positive / negative) in both datasets
